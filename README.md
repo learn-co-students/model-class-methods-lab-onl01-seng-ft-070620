@@ -1,5 +1,5 @@
 # Optimal Queries using Active Record
-
+ 
 ## Learning Goals
 
 * Use ActiveRecord's AREL library to build optimized queries
