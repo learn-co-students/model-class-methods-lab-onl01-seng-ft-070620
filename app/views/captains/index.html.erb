@@ -1,0 +1,1 @@
+<%= @captains.includes(boats: :classifications).where(classifications: {name: "Sailboat"}).or(Captain.includes(boats: :classifications).where(classifications: {name: "Motorboat"})).distinct %>
